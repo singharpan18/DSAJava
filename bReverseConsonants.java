@@ -52,3 +52,7 @@ public class bReverseConsonants {
         System.out.println(reverseConsonants(s));
     }
 }
+/*
+We use two pointers and each character is visited at most once, so time complexity is O(n).
+We convert the string into a character array for modification, which takes O(n) extra space.
+*/

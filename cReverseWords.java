@@ -32,3 +32,6 @@ public class cReverseWords {
         System.out.println(reverseWords(s));
     }
 }
+
+/*trim(), split(), and traversal each take O(n) time, so overall time complexity is O(n).
+Extra space is used for split array and StringBuilder, so space complexity is O(n). */
