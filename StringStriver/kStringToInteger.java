@@ -1,3 +1,4 @@
+package StringStriver;
 public class kStringToInteger {
 
     public static int myAtoi(String s) {

@@ -1,3 +1,4 @@
+package StringStriver;
 public class hMaximumNestingDepth {
 
     public static int maxDepth(String s) {

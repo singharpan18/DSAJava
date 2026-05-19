@@ -1,3 +1,4 @@
+package StringStriver;
 public class fRotateString {
 
     public static boolean rotateString(String s, String goal) {

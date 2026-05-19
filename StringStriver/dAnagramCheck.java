@@ -1,3 +1,4 @@
+package StringStriver;
 public class dAnagramCheck {
 
     public static boolean isAnagram(String s1, String s2) {

@@ -1,3 +1,4 @@
+package StringStriver;
 /*
 Reverse every word in a string.
 s = "arpan singh"

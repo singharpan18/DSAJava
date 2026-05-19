@@ -1,3 +1,4 @@
+package StringStriver;
 public class gRemoveOuterParentheses {
 
     public static String removeOuterParentheses(String s) {
