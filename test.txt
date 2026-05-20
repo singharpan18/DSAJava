@@ -1,1 +1,6 @@
 format code Shift + Alt + F
+after interview -> array 30 q by cgpt, Problem: Book Allocation, Problem: Aggressive Cows, 
+bit questions -> backlog 
+
+https://chatgpt.com/share/6a0d6d6a-ec0c-83a5-9017-4ac8ff8e859f
+
