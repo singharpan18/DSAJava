@@ -4,3 +4,9 @@ bit questions -> backlog
 
 https://chatgpt.com/share/6a0d6d6a-ec0c-83a5-9017-4ac8ff8e859f
 
+Frequency loop: Checking counts
+String loop: Checking characters
+
+Make actual string from characters - new String(arr)
+when u have used StringBuilder result = new StringBuilder(); use -> result.toString() while returning
+

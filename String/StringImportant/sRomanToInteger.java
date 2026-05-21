@@ -1,7 +1,7 @@
 package String.StringImportant;
 import java.util.HashMap;
 
-public class jRomanToInteger {
+public class sRomanToInteger {
 
     public static int romanToInt(String s) {
 

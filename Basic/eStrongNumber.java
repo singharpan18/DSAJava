@@ -41,4 +41,23 @@ public class eStrongNumber {
     }
 }
 
-/*A number is Strong if: Sum of factorials of digits = original number*/
+/*A number is Strong if: Sum of factorials of digits = original number
+Example: 145
+Digits of 145 are:
+1
+4
+5
+
+Now find factorial of each digit:
+1! = 1
+4! = 4 × 3 × 2 × 1 = 24
+5! = 5 × 4 × 3 × 2 × 1 = 120
+
+Now add them:
+1 + 24 + 120 = 145
+
+Since the sum is equal to the original number:
+145 = 145
+
+So, 145 is a Strong Number ✅
+*/
