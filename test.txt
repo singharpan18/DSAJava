@@ -1,12 +1,35 @@
 format code Shift + Alt + F
-after interview -> array 30 q by cgpt, Problem: Book Allocation, Problem: Aggressive Cows, 
-bit questions -> backlog 
 
-https://chatgpt.com/share/6a0d6d6a-ec0c-83a5-9017-4ac8ff8e859f
+https://chatgpt.com/share/6a0d6d6a-ec0c-83a5-9017-4ac8ff8e859f -> 
+Binary Search aggressive cow book allocation peark element
 
+-------------------------------------------------------------------------------------------------------------------------
+1.Basic is completed
+
+2.String is completed -> Important & Striver
 Frequency loop: Checking counts
 String loop: Checking characters
 
 Make actual string from characters - new String(arr)
 when u have used StringBuilder result = new StringBuilder(); use -> result.toString() while returning
 
+3.Array in progress
+Remove Duplicates
+Left Rotate
+Largest Subarray Sum 0
+XOR K
+Next Permutation
+Leaders
+Longest Consecutive Sequence
+Rearrange by Sign
+Pascal Triangle
+Set Matrix Zeroes
+Rotate Matrix
+Spiral Matrix
+Merge Sorted Arrays without Extra Space
+Majority Element-I
+Majority Element-II
+Find Missing and Repeating
+Count Inversions
+Reverse Pairs
+Maximum Product Subarray
