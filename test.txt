@@ -17,15 +17,11 @@ when u have used StringBuilder result = new StringBuilder(); use -> result.toStr
 Remove Duplicates
 Left Rotate
 Largest Subarray Sum 0
-XOR K
 Next Permutation
 Leaders
 Longest Consecutive Sequence
 Rearrange by Sign
 Pascal Triangle
-Set Matrix Zeroes
-Rotate Matrix
-Spiral Matrix
 Merge Sorted Arrays without Extra Space
 Majority Element-I
 Majority Element-II
