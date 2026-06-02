@@ -17,14 +17,16 @@ when u have used StringBuilder result = new StringBuilder(); use -> result.toStr
 Remove Duplicates
 Left Rotate
 Largest Subarray Sum 0
-Next Permutation
+Next Permutation -> backlog
 Leaders
 Longest Consecutive Sequence
 Rearrange by Sign
+
 Pascal Triangle
 Merge Sorted Arrays without Extra Space
 Majority Element-I
 Majority Element-II
+
 Find Missing and Repeating
 Count Inversions
 Reverse Pairs
