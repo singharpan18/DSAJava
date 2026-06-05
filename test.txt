@@ -13,21 +13,25 @@ String loop: Checking characters
 Make actual string from characters - new String(arr)
 when u have used StringBuilder result = new StringBuilder(); use -> result.toString() while returning
 
-3.Array in progress
-Remove Duplicates
-Left Rotate
-Largest Subarray Sum 0
-Next Permutation -> backlog
-Leaders
-Longest Consecutive Sequence
-Rearrange by Sign
+3.Array in completed
 
-Pascal Triangle
-Merge Sorted Arrays without Extra Space
-Majority Element-I
-Majority Element-II
+Binary Search 
+https://chatgpt.com/s/t_6a228883391c81919dbd341b6e4b9250
 
-Find Missing and Repeating
-Count Inversions
-Reverse Pairs
-Maximum Product Subarray
+Sorting Technique
+Merge Two Sorted Arrays
+
+Bit manipulation
+Count Number of Set Bits (1s)
+Find Missing Number in Array
+
+Recusion & backtacking 
+Generate All Permutations of an Array
+Generate All Subsequences / Subsets
+Combination Sum
+Print All Subsequences of a String (Recursion)
+
+Generate All Permutations of a String (Backtracking)
+N-Queens Problem (Backtracking)
+Rat in a Maze (Backtracking)
+Sudoku Solver (Backtracking)
