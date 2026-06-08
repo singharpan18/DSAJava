@@ -1,10 +1,8 @@
 format code Shift + Alt + F
-
-https://chatgpt.com/share/6a0d6d6a-ec0c-83a5-9017-4ac8ff8e859f -> 
-Binary Search aggressive cow book allocation peark element
-
 -------------------------------------------------------------------------------------------------------------------------
+
 1.Basic is completed
+-------------------------------------------------------------------------------------------------------------------------
 
 2.String is completed -> Important & Striver
 Frequency loop: Checking counts
@@ -12,20 +10,44 @@ String loop: Checking characters
 
 Make actual string from characters - new String(arr)
 when u have used StringBuilder result = new StringBuilder(); use -> result.toString() while returning
+-------------------------------------------------------------------------------------------------------------------------
 
 3.Array in completed
+-------------------------------------------------------------------------------------------------------------------------
 
-Binary Search 
-https://chatgpt.com/s/t_6a228883391c81919dbd341b6e4b9250
+4.Binary Search 
+| Problem           | Goal              | Pattern  | Answer     |
+| ----------------- | ----------------- | -------- | ---------- |
+| Aggressive Cows   | Maximize minimum  | TTTTFFFF | Last True  |
+| Allocate Books    | Minimize maximum  | FFFFTTTT | First True |
+| Koko Bananas      | Minimize speed    | FFFFTTTT | First True |
+| Ship Packages     | Minimize capacity | FFFFTTTT | First True |
+| Painter Partition | Minimize time     | FFFFTTTT | First True |
 
-Sorting Technique
+| Problem | What you check               |
+| ------- | ---------------------------- |
+| Koko    | can finish in h hours        |
+| Books   | can allocate within students |
+| Ship    | can ship within D days       |
+| Painter | can paint within time        |
+| Cows    | can place with distance      |
+
+MINIMIZE
+we start failing → then start passing
+MAXIMIZE
+we start passing → then start failing
+-------------------------------------------------------------------------------------------------------------------------
+
+5.Sorting Technique
 Merge Two Sorted Arrays
+-------------------------------------------------------------------------------------------------------------------------
 
-Bit manipulation
+6.Bit manipulation
 Count Number of Set Bits (1s)
 Find Missing Number in Array
+-------------------------------------------------------------------------------------------------------------------------
 
-Recusion & backtacking 
+7.Recusion & backtacking 
 Generate All Permutations of an Array
 Generate All Subsequences / Subsets
 Combination Sum
@@ -35,3 +57,4 @@ Generate All Permutations of a String (Backtracking)
 N-Queens Problem (Backtracking)
 Rat in a Maze (Backtracking)
 Sudoku Solver (Backtracking)
+-------------------------------------------------------------------------------------------------------------------------
