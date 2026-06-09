@@ -1,6 +1,6 @@
 package Basic;
 
-public class lLeapYear {
+public class kLeapYear {
 
     public static boolean isLeapYear(int year) {
 

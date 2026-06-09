@@ -11,7 +11,7 @@ public class gFindMinRotatedArray {
             int mid = low + (high - low) / 2;
 
             // 🔹 Right side is unsorted → min is there
-            if (arr[mid] > arr[high]) {
+            if (arr[mid] > arr[mid+1]) {
                 low = mid + 1;
             }
 

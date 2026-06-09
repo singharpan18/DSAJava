@@ -12,10 +12,10 @@ Make actual string from characters - new String(arr)
 when u have used StringBuilder result = new StringBuilder(); use -> result.toString() while returning
 -------------------------------------------------------------------------------------------------------------------------
 
-3.Array in completed
+3.Array is completed
 -------------------------------------------------------------------------------------------------------------------------
 
-4.Binary Search 
+4.Binary Search is completed 
 | Problem           | Goal              | Pattern  | Answer     |
 | ----------------- | ----------------- | -------- | ---------- |
 | Aggressive Cows   | Maximize minimum  | TTTTFFFF | Last True  |
@@ -38,13 +38,10 @@ MAXIMIZE
 we start passing → then start failing
 -------------------------------------------------------------------------------------------------------------------------
 
-5.Sorting Technique
-Merge Two Sorted Arrays
+5.Sorting Technique is completed
 -------------------------------------------------------------------------------------------------------------------------
 
-6.Bit manipulation
-Count Number of Set Bits (1s)
-Find Missing Number in Array
+6.Bit manipulation is completed
 -------------------------------------------------------------------------------------------------------------------------
 
 7.Recusion & backtacking 

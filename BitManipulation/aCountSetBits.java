@@ -1,6 +1,6 @@
-package Basic;
+package BitManipulation;
 //Input: 13 → Binary: 1101 → Count of 1s: 3 → Output: 3
-public class kCountSetBits {
+public class aCountSetBits {
 
     public static int countSetBits(int num) {
 

@@ -29,3 +29,11 @@ public class dLowerBound {
         System.out.println(lowerBound(arr, 6));
     }
 }
+/*
+👉 Lower Bound = “first place where I can insert target without breaking order”
+| Concept     | Condition | Meaning                            |
+| ----------- | --------- | ---------------------------------- |
+| Lower Bound | ≥ target  | First occurrence / insert position |
+| Upper Bound | > target  | First element after target range   |
+
+*/
