@@ -1,10 +1,10 @@
 format code Shift + Alt + F
 -------------------------------------------------------------------------------------------------------------------------
 
-1.Basic is completed
+1.Basic is completed -> monday
 -------------------------------------------------------------------------------------------------------------------------
 
-2.String is completed -> Important & Striver
+2.String is completed -> Important & Striver -> tueday
 Frequency loop: Checking counts
 String loop: Checking characters
 
@@ -12,10 +12,10 @@ Make actual string from characters - new String(arr)
 when u have used StringBuilder result = new StringBuilder(); use -> result.toString() while returning
 -------------------------------------------------------------------------------------------------------------------------
 
-3.Array is completed
+3.Array is completed -> wednesday
 -------------------------------------------------------------------------------------------------------------------------
 
-4.Binary Search is completed 
+4.Binary Search is completed -> thursday
 | Problem           | Goal              | Pattern  | Answer     |
 | ----------------- | ----------------- | -------- | ---------- |
 | Aggressive Cows   | Maximize minimum  | TTTTFFFF | Last True  |
@@ -38,20 +38,21 @@ MAXIMIZE
 we start passing → then start failing
 -------------------------------------------------------------------------------------------------------------------------
 
-5.Sorting Technique is completed
+5.Sorting Technique is completed -> monday
 -------------------------------------------------------------------------------------------------------------------------
 
-6.Bit manipulation is completed
+6.Bit manipulation is completed -> monday
 -------------------------------------------------------------------------------------------------------------------------
 
-7.Recusion & backtacking 
-Generate All Permutations of an Array
-Generate All Subsequences / Subsets
-Combination Sum
-Print All Subsequences of a String (Recursion)
+7.Recusion & backtacking -> friday
+Easy Rule
+ArrayList, StringBuilder, arrays → modify same object → backtracking needed.
+String, Integer, Boolean → immutable → backtracking not needed.
 
-Generate All Permutations of a String (Backtracking)
-N-Queens Problem (Backtracking)
-Rat in a Maze (Backtracking)
-Sudoku Solver (Backtracking)
+In Combination Sum, after picking an element:
+combinationSum(arr, index, target - arr[index], current, result);
+we stay at the same index because reuse is allowed.
+If reuse is NOT allowed, then after picking we must move forward:
+combinationSum(arr, index + 1, target - arr[index], current, result);
+because that element cannot be used again.
 -------------------------------------------------------------------------------------------------------------------------
