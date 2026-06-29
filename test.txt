@@ -1,10 +1,10 @@
 format code Shift + Alt + F
 -------------------------------------------------------------------------------------------------------------------------
 
-1.Basic is completed -> monday
+1.Basic 
 -------------------------------------------------------------------------------------------------------------------------
 
-2.String is completed -> Important & Striver -> tuesday
+2.String 
 Frequency loop: Checking counts
 String loop: Checking characters
 
@@ -18,10 +18,10 @@ map.values()           -> all values
 map.entrySet()         -> all key-value pairs
 -------------------------------------------------------------------------------------------------------------------------
 
-3.Array is completed -> wednesday
+3.Array -> currently not doing From ArrayVeryImportant g gg h  ArrayImportantStriver g
 -------------------------------------------------------------------------------------------------------------------------
 
-4.Binary Search is completed -> thursday
+4.Binary Search 
 | Problem           | Goal              | Pattern  | Answer     |
 | ----------------- | ----------------- | -------- | ---------- |
 | Aggressive Cows   | Maximize minimum  | TTTTFFFF | Last True  |
@@ -44,13 +44,13 @@ MAXIMIZE
 we start passing → then start failing
 -------------------------------------------------------------------------------------------------------------------------
 
-5.Sorting Technique is completed -> monday
+5.Sorting Technique 
 -------------------------------------------------------------------------------------------------------------------------
 
-6.Bit manipulation is completed -> monday
+6.Bit manipulation 
 -------------------------------------------------------------------------------------------------------------------------
 
-7.Recusion & backtacking -> friday
+7.Recusion & backtacking
 Easy Rule
 ArrayList, StringBuilder, arrays → modify same object → backtracking needed.
 String, Integer, Boolean → immutable → backtracking not needed.
