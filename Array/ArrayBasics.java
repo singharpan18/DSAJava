@@ -261,22 +261,6 @@ public class ArrayBasics {
         System.out.println("21. First Window Sum: "
                 + windowSum);
 
-        // Slide window
-        for (int i = k; i < arr11.length; i++) {
-
-            windowSum += arr11[i];
-            windowSum -= arr11[i - k];
-
-            System.out.println("Window Sum: "
-                    + windowSum);
-        }
-
-        /*
-        Sliding Window:
-        Add new element
-        Remove old element
-        */
-
         // 22. Two Pointer Basics
         int[] arr12 = {1, 2, 3, 4, 5};
 

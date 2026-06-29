@@ -1,4 +1,5 @@
 package String.StringStriver;
+//no need currently of doing this
 public class nSumBeautySubstrings {
 
     public static int beautySum(String s) {

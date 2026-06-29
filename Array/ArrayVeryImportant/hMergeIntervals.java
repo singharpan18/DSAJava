@@ -3,6 +3,7 @@ package Array.ArrayVeryImportant;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+//no need currently of doing this
 
 public class hMergeIntervals {
 

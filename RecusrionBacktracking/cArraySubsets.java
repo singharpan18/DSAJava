@@ -33,3 +33,20 @@ public class cArraySubsets {
         printSubsets(arr, output, 0);
     }
 }
+/*
+                                      []
+                           (decide for 1)
+                          /              \
+                 Exclude 1              Include 1
+                    []                     [1]
+
+              (decide for 2)         (decide for 2)
+                 /      \               /        \
+         Exclude 2    Include 2   Exclude 2   Include 2
+            []           [2]         [1]        [1,2]
+
+      (decide for 3) (decide for 3) (decide for 3) (decide for 3)
+          /    \         /    \         /    \          /    \
+      E3      I3     E3      I3     E3      I3      E3      I3
+      []      [3]    [2]   [2,3]   [1]   [1,3]   [1,2] [1,2,3]
+*/

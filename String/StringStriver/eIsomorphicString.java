@@ -25,7 +25,7 @@ public class eIsomorphicString {
             // Check s -> t mapping
             if (map1.containsKey(ch1)) {
 
-                // Existing mapping should match
+                // Existing mapping should match Once a character is mapped, it must always map to the same character.
                 if (map1.get(ch1) != ch2) {
                     return false;
                 }

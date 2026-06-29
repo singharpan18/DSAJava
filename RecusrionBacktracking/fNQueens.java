@@ -14,7 +14,6 @@ public class fNQueens {
             for (char[] r : board) {
                 temp.add(new String(r));
             }
-
             result.add(temp);
             return;
         }
@@ -88,3 +87,38 @@ public class fNQueens {
         System.out.println(result);
     }
 }
+/*
+N-Queens Problem Statement
+The N-Queens problem asks:
+Place N Queens on an N × N chessboard such that no two queens attack each other.
+How does a Queen move?
+In chess, a Queen can attack in:
+Same Row ← →
+Same Column ↑ ↓
+Diagonal ↖ ↗ ↘ ↙
+So, while placing queens, we must ensure:
+No two queens are in the same row.
+No two queens are in the same column.
+No two queens are on the same diagonal.
+Example: 4 Queens on 4×4 Board
+Board:
+_ _ _ _
+_ _ _ _
+_ _ _ _
+_ _ _ _
+
+Place 4 queens (Q) such that none attack each other.
+One valid arrangement:
+_ Q _ _
+_ _ _ Q
+Q _ _ _
+_ _ Q _
+
+Check:
+Every row has exactly one queen ✓
+Every column has exactly one queen ✓
+No queens share a diagonal ✓
+
+Input: N = 4
+Output: All possible valid arrangements of 4 queens. For N = 4, there are 2 valid solutions.
+*/

@@ -1,4 +1,5 @@
 package String.StringStriver;
+//no need currently of doing this
 public class kStringToInteger {
 
     public static int myAtoi(String s) {
