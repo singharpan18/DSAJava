@@ -32,6 +32,6 @@ public class nRemoveSpaces {
 
         String s = "Java is fun";
 
-        System.out.println(removeSpaces(s));
+        System.out.println(removeSpaces1(s));
     }
 }
