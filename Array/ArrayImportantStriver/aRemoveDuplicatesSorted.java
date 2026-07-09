@@ -5,7 +5,7 @@ import java.util.*;
 // Remove Duplicates Variants
 public class aRemoveDuplicatesSorted {
 
-    // Remove duplicates by sorting first
+    // Remove duplicates from sorted array
     public static void removeDuplicatesArraySorted(int[] arr) {
 
         System.out.print(arr[0] + " ");
@@ -80,3 +80,11 @@ public class aRemoveDuplicatesSorted {
     }
 }
 /* if array is not sorted, without using sort or set we have to use two for loops */
+/*
+| Method                         | Time Complexity      | Space Complexity | Reason                                                                                              |
+| ------------------------------ | -------------------- | ---------------- | --------------------------------------------------------------------------------------------------- |
+| **Sorted Array**               | **O(N)**             | **O(1)**         | Single traversal, compares adjacent elements only.                                                  |
+| **Using LinkedHashSet**        | **O(N)** *(average)* | **O(N)**         | One traversal; `LinkedHashSet` insertion is `O(1)` on average and stores up to `N` unique elements. |
+| **Without Set (Nested Loops)** | **O(N²)**            | **O(1)**         | Each element is compared with all previously seen elements(There are two nested loops.); no extra data structure is used.        |
+
+*/

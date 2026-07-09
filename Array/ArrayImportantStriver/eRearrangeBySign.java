@@ -1,3 +1,21 @@
+/*
+Problem Statement
+Rearrange Array Elements by Sign
+You are given an integer array nums containing an equal number of positive and negative integers.
+
+Rearrange the array so that:
+Every positive number is followed by a negative number.
+The relative order of positive numbers remains the same.
+The relative order of negative numbers remains the same.
+The rearranged array starts with a positive number.
+
+Return the rearranged array.
+Example 1
+Input:
+nums = [3,1,-2,-5,2,-4]
+Output:
+[3,-2,1,-5,2,-4]
+*/
 package Array.ArrayImportantStriver;
 import java.util.Arrays;
 
@@ -46,3 +64,7 @@ public class eRearrangeBySign {
         System.out.println(Arrays.toString(rearrangeArray(nums)));
     }
 }
+/*
+Time Complexity: O(N) because the array is traversed only once, and each element is placed into the result array in constant time.
+Space Complexity: O(N) because an additional array of size N is used to store the rearranged elements.
+*/
